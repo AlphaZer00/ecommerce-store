@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import './animations.css';
+import Nav from "../components/nav";
 
 export function meta({}: Route.MetaArgs) {
   return [
