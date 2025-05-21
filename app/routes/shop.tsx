@@ -1,5 +1,10 @@
+import Nav from "../components/nav"
+
 export default function Shop() {
     return (
-        <div>test div</div>
+        <> 
+            <Nav></Nav>
+            <div>test div</div>
+        </>
     )
 }
