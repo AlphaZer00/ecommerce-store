@@ -7,7 +7,7 @@
 
 html,
 body {
-  @apply bg-[#EBE2DB] dark:bg-[#70533D];
+  @apply bg-[#EBE2DB] dark:bg-[#69371F];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
