@@ -2,6 +2,7 @@ import Nav from "../components/Nav";
 import { useEffect, useState } from "react";
 import { fetchProducts } from "../api/fakeStoreApi";
 import type { Product } from "../types/product";
+import ProductCard from "~/components/ProductCard";
 
 export default function Shop() {
     const [products, setProducts] = useState<Product[]>([]);
@@ -17,12 +18,10 @@ export default function Shop() {
             <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
                 {products.map((product) => (
                     <li key={product.id} className="mb-2">
-                        <p>{product.title}</p>
-                        <img
-                            src={product.image}
-                            alt={product.title}
-                            className="w-30"
-                        />
+                        <ProductCard
+                            product={product}
+                            onAddToCart={(p) => console.log("Added to cart", p)}
+                        ></ProductCard>
                     </li>
                 ))}
             </ul>
