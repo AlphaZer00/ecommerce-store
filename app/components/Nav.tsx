@@ -1,14 +1,24 @@
-import { Link } from "react-router"
+import { Link } from "react-router";
 
 export default function Nav() {
     return (
         <div className="w-full flex justify-center gap-10 p-5  dark:text-white">
             <Link to="/">
-                <button className="hover:scale-110 text-black h-full dark:text-white">Home</button>
+                <button
+                    role="link"
+                    className="relative transition transform hover:scale-107 duration-200 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:w-full after:origin-bottom after:scale-x-0 after:bg-white after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom hover:after:scale-x-100"
+                >
+                    Home
+                </button>
             </Link>
             <Link to="/shop">
-                <button className="hover:scale-110 text-black dark:text-white">Shop</button>
+                <button
+                    role="link"
+                    className="relative transition transform hover:scale-107 duration-200 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:w-full after:origin-bottom after:scale-x-0 after:bg-white after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom hover:after:scale-x-100"
+                >
+                    Shop
+                </button>
             </Link>
         </div>
-    )
+    );
 }
