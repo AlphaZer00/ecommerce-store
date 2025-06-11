@@ -12,7 +12,7 @@ export default function Shop() {
     }, []);
 
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center pr-5 pl-5">
             <Nav></Nav>
             <h1 className="text-4xl font-bold pb-4">Shop</h1>
             <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
