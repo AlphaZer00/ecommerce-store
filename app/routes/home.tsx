@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
                 <div>
                     <img
-                        className="w-full max-w-lg h-auto"
+                        className="w-full max-w-lg h-auto rounded-xl drop-shadow-lg"
                         src="/images/clothes.jpg"
                         alt="Clothes"
                     />
