@@ -19,6 +19,7 @@ export default function Nav() {
                     Shop
                 </button>
             </Link>
+            <button className="absolute right-5">Cart</button>
         </div>
     );
 }
