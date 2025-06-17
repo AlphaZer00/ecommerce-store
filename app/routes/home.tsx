@@ -18,8 +18,8 @@ export default function Home() {
     return (
         <div className="flex flex-col justify-center min-h-screen">
             <Nav></Nav>
-            <main className="flex flex-col grow-1 shrink-0 basis-auto items-center lg:flex-row justify-center pt-4 sm:pt-0 pb-4 fade-in-bottom px-10 text-black bg-[#D8CCC4]">
-                <div className="flex flex-col items-center pb-4 ">
+            <main className="flex flex-col grow-1 shrink-0 basis-auto items-center lg:flex-row justify-center pt-4 sm:pt-0 pb-4 fade-in-bottom px-10 text-font-color bg-bg">
+                <div className="flex flex-col items-center py-4">
                     <h1 className="text-4xl font-bold pb-4">Unbound</h1>
                     <div className="max-w-[60ch] w-full pb-4">
                         <p className="pb-4">

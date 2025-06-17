@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <div className="flex flex-col items-center justify-center px-10 pb-2 pt-5 bg-[#3B1E16]">
-            <div className="flex flex-col self-start">
+        <div className="flex flex-col items-center justify-center px-10 pb-2 pt-5 bg-footer">
+            <div className="flex flex-col">
                 <h1 className="text-2xl font-bold">UNBOUND</h1>
                 <p>
                     We strive to offer clothes that express your style, using
@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="flex justify-evenly pb-3">
                     <div className="flex flex-col">
                         <h2 className="font-bold">Company</h2>
-                        <ul className="flex flex-col gap-1 text-gray-300">
+                        <ul className="flex flex-col gap-1 text-font-color-gray">
                             <li>About</li>
                             <li>Blog</li>
                             <li>Careers</li>
@@ -20,7 +20,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h2 className="font-bold">Help</h2>
-                        <ul className="flex flex-col gap-1 text-gray-300">
+                        <ul className="flex flex-col gap-1 text-font-color-gray">
                             <li>Customer Support</li>
                             <li>Track A Package</li>
                             <li>Terms & Conditions</li>
@@ -29,7 +29,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h2 className="font-bold">More From Us</h2>
-                        <ul className="flex flex-col gap-1 text-gray-300">
+                        <ul className="flex flex-col gap-1 text-font-color-gray">
                             <li>Mobile App</li>
                             <li>Newsletter</li>
                             <li>Gift Cards</li>

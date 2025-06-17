@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 export default function Nav() {
     return (
-        <div className="w-full flex justify-center gap-10 p-5  dark:text-white">
+        <div className="w-full flex justify-center gap-10 p-5 text-font-color-light bg-nav">
             <Link to="/">
                 <button
                     role="link"

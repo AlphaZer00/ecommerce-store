@@ -15,7 +15,7 @@ export default function Shop() {
     return (
         <div className="flex flex-col justify-center">
             <Nav></Nav>
-            <main className="grow-1 px-5 pb-5 flex flex-col align-middle items-center justify-center">
+            <main className="grow-1 px-5 pb-5 flex flex-col align-middle items-center justify-center bg-bg text-font-color fade-in-bottom pt-5">
                 <h1 className="text-4xl font-bold pb-4">Shop</h1>
                 <ul className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4">
                     {products.map((product) => (

@@ -3,12 +3,17 @@
 @theme {
     --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --color-bg: var(--bg);
+    --color-font-color-light: var(--font-color-light);
+    --color-nav: var(--nav);
+    --color-footer: var(--footer);
+    --color-font-color-gray: var(--font-color-gray);
 }
 
 html,
 body {
     height: 100%;
-    @apply bg-[#EBE2DB] dark:bg-[#69371F];
 
     @media (prefers-color-scheme: dark) {
         color-scheme: dark;
@@ -18,4 +23,24 @@ body {
 ul, li {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    background-color: oklch(0.9626 0.0051 67.76);
+    --bg: oklch(0.9626 0.0051 67.76);
+    --nav: oklch(0.3953 0.0799 45.25);
+    --font-color-light: oklch(1 0 0);
+    --footer: oklch(0.8957 0.0063 75.4);
+    --font-color-gray: oklch(0.4562 0 0);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: oklch(0.2376 0.0114 285.5);
+        --bg: oklch(0.2376 0.0114 285.5);
+        --font-color-light: oklch(1 0 0);
+        --nav: oklch(0.3953 0.0799 45.25);
+        --footer: oklch(0.2726 0.0479 36.28);
+        --font-color-gray: oklch(0.872 0.0106 261.79);
+    }
 }
