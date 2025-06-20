@@ -4,9 +4,31 @@ import { fetchProducts } from "../api/fakeStoreApi";
 import type { Product } from "../types/product";
 import ProductCard from "~/components/ProductCard";
 import Footer from "~/components/Footer";
+import { useOutletContext } from "react-router";
+import type { CartContext } from "~/types/cart";
 
 export default function Shop() {
     const [products, setProducts] = useState<Product[]>([]);
+    const { cartItems, setCartItems } = useOutletContext<CartContext>();
+
+    const addToCart = (product: Product) => {
+        setCartItems((prevCart) => {
+            const existingItem = prevCart.find(
+                (item) => item.id === product.id
+            );
+
+            if (existingItem) {
+                return prevCart.map((item) =>
+                    item.id === product.id
+                        ? { ...item, quantity: (item.quantity ?? 1) + 1 }
+                        : item
+                );
+            } else {
+                return [...prevCart, { ...product, quantity: 1 }];
+            }
+        });
+        console.log('CartItems', cartItems);
+    };
 
     useEffect(() => {
         fetchProducts().then(setProducts);
@@ -22,9 +44,7 @@ export default function Shop() {
                         <li key={product.id} className="mb-2">
                             <ProductCard
                                 product={product}
-                                onAddToCart={(p) =>
-                                    console.log("Added to cart", p)
-                                }
+                                onAddToCart={addToCart}
                             ></ProductCard>
                         </li>
                     ))}
