@@ -19,7 +19,11 @@ export default function Nav() {
                     Shop
                 </button>
             </Link>
-            <button className="absolute right-5">Cart</button>
+            <Link to="/cart">
+                <button role="link" className="absolute right-5">
+                    Cart
+                </button>
+            </Link>
         </div>
     );
 }
