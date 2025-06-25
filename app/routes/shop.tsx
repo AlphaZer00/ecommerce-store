@@ -27,7 +27,7 @@ export default function Shop() {
                 return [...prevCart, { ...product, quantity: 1 }];
             }
         });
-        console.log('CartItems', cartItems);
+        console.log("CartItems", cartItems);
     };
 
     useEffect(() => {
