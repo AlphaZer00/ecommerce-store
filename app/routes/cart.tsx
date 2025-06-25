@@ -12,6 +12,17 @@ export default function Cart() {
             prevCart.filter((item) => item.id !== product.id)
         );
     };
+
+    const updateQuantity = (productId: number, quantity: number) => {
+        if (quantity < 1 || Number.isNaN(quantity)) return;
+
+        setCartItems((prevCart) =>
+            prevCart.map((item) =>
+                item.id === productId ? { ...item, quantity } : item
+            )
+        );
+    };
+
     return (
         <>
             <Nav></Nav>
@@ -26,8 +37,22 @@ export default function Cart() {
                                 alt={item.title}
                                 className="w-40 h-40 object-contain mb-4"
                             />
-                            <p>Quantity: {item.quantity}</p>
-                            <p>${item.price.toFixed(2)}</p>
+                            <div className="mb-2">
+                                <label className="mr-2">Quantity:</label>
+                                <input
+                                    className="max-w-15"
+                                    type="number"
+                                    min="1"
+                                    value={item.quantity}
+                                    onChange={(e) =>
+                                        updateQuantity(
+                                            item.id,
+                                            parseInt(e.target.value)
+                                        )
+                                    }
+                                />
+                            </div>
+                            <p>${(item.price * item.quantity).toFixed(2)}</p>
                             <button
                                 className="mt-2 px-3 bg-red-500 text-white rounded hover:bg-red-600"
                                 onClick={() => removeFromCart(item)}
