@@ -26,7 +26,7 @@ export default function Cart() {
     return (
         <>
             <Nav></Nav>
-            <div className="">
+            <div className="m-4">
                 <h1 className="text-3xl font-bold">Cart</h1>
                 <div className="flex flex-col">
                     <ul className="flex flex-col gap-4 border rounded-xl !p-5">
