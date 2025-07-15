@@ -100,7 +100,7 @@ Project Link: [https://github.com/AlphaZer00/ecommerce-store](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [FakeStoreAPI](httsp://fakestoreapi.com)
+* [FakeStoreAPI](https://fakestoreapi.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
