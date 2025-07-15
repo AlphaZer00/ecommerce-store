@@ -89,7 +89,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Batuhan Dasdemir - [linkedin-url] - batudasdemir@gmail.com
+Batuhan Dasdemir - [LinkedIn](https://linkedin.com/in/batuhan-dasdemir) - batudasdemir@gmail.com
 
 Project Link: [https://github.com/AlphaZer00/ecommerce-store](https://github.com/AlphaZer00/ecommerce-store)
 
