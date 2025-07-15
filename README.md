@@ -20,7 +20,7 @@
 <h3 align="center">Unbound Shop</h3>
 
   <p align="center">
-    A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from [FakeStoreAPI](https://fakestoreapi.com)
+    A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from <a href="https://fakestoreapi.com" target="_blank">FakeStoreAPI</a>
     <br />
     <a href="https://github.com/AlphaZer00/ecommerce-store"><strong>Explore the docs »</strong></a>
     <br />
