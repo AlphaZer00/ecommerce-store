@@ -35,6 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     />
                 <Meta />
                 <Links />
+                <title>Unbound Shop</title>
             </head>
             <body>
                 {children}
