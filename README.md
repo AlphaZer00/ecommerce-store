@@ -20,7 +20,7 @@
 <h3 align="center">Unbound Shop</h3>
 
   <p align="center">
-    project_description
+    A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from FakeStoreAPI[https://fakestoreapi.com].
     <br />
     <a href="https://github.com/AlphaZer00/ecommerce-store"><strong>Explore the docs »</strong></a>
     <br />
@@ -68,7 +68,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `AlphaZer00`, `ecommerce-store`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Unbound Shop`, `project_description`, `project_license`
+Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `AlphaZer00`, `ecommerce-store`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Unbound Shop`, `A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from FakeStoreAPI[https://fakestoreapi.com].`, `project_license`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
