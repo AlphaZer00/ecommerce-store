@@ -20,7 +20,7 @@
 <h3 align="center">Unbound Shop</h3>
 
   <p align="center">
-    A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from FakeStoreAPI[https://fakestoreapi.com].
+    A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from [FakeStoreAPI](https://fakestoreapi.com)
     <br />
     <a href="https://github.com/AlphaZer00/ecommerce-store"><strong>Explore the docs »</strong></a>
     <br />
@@ -55,7 +55,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -171,19 +170,10 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Batuhan Dasdemir - [linkedin-url] - batudasdemir@gmail.com
 
 Project Link: [https://github.com/AlphaZer00/ecommerce-store](https://github.com/AlphaZer00/ecommerce-store)
 
