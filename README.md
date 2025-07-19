@@ -50,7 +50,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- 'A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from <a href="https://fakestoreapi.com/">FakeStoreAPI</a>.'
+ A streamlined ecommerce store SPA created with react-router-v7. Product data sourced from <a href="https://fakestoreapi.com/">FakeStoreAPI.</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
